@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 95%;
+}
+
+.product__single{
+  height: 25;
+  width:60;
+  border: radius 1px;;
+  border-color: black;
+  margin: 20;
+}
+
+.product__single >img {
+  height: 6em;
+  background-color: #61dafb;
+}
+
+.page {
+  padding: 5px;
+}
